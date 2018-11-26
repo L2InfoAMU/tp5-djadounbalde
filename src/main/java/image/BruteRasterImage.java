@@ -22,11 +22,12 @@ public class BruteRasterImage implements Image {
     public BruteRasterImage(Color[][] colors){
         for(int x=0; x<width ; x++){
             for(int y=0 ; y<height ; y++){
-
-
+            this.colors[x][y]=colors[x][y] ;
             }
         }
     }
+
+
 
 
     @Override
