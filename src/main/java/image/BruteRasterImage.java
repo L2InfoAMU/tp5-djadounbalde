@@ -46,6 +46,17 @@ public class BruteRasterImage implements Image {
         colors = new Color[height][width] ;
     }
 
+    protected void setWidth(int width){
+        this.width=width;
+
+
+    }
+    
+
+    protected void setHeight(int height){
+        this.height=height ;
+    }
+
 
 
     @Override
