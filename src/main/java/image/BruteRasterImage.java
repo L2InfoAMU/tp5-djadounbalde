@@ -26,7 +26,7 @@ public class BruteRasterImage implements Image {
             }
         }
     }
-
+    
 
 
 
