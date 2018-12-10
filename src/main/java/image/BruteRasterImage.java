@@ -2,7 +2,7 @@ package image;
 import javafx.scene.paint.Color;
 import util.Matrices;
 
-public class BruteRasterImage implements Image {
+public class BruteRasterImage extends RasterImage implements Image {
 
     int width ;
     int height ;

@@ -23,8 +23,8 @@ public class RasterUniformImageFactory implements ImageFactory {
 
                 case PALETTE:
                     return new PaletteRasterImage(color, width, height);
-                /*case BRUTE:
-                    return new BruteRasterImage(color, width, height);*/
+                case BRUTE:
+                    return new BruteRasterImage(color, width, height);
                 default:
                     throw new NotSupportedException(rasterImageType + " is not supported");
             }
