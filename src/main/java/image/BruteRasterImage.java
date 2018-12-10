@@ -12,7 +12,7 @@ public class BruteRasterImage implements Image {
     public BruteRasterImage(Color color, int width, int height) {
         this.width=width;
         this.height=height;
-        this.colors= new Color[width][height] ;
+        createRepresentation();
         for(int i=0 ; i<width ; i++){
             for(int j=0; j<height ; j++){
                 this.colors[i][j]=color ;
@@ -82,9 +82,6 @@ public class BruteRasterImage implements Image {
     }
 
     @Override
-    public int getHeight() {
-
-        return height;
-    }
+    public int getHeight() { return height; }
 
 }
